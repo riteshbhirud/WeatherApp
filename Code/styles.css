@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.card-title {
+    font-size: 2rem;
+    color: #007bff;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+#weatherContainer p, #forecastContainer p {
+    margin-bottom: 10px;
+}
+
+.weather-icon {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0;
+    max-height: 100px;
+}
