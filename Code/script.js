@@ -64,6 +64,10 @@ function displayWeather(data) {
     
     displayForecast(data.daily);
 }
+function showInfo() {
+    const infoModal = new bootstrap.Modal(document.getElementById('infoModal'));
+    infoModal.show();
+}
 
 function displayForecast(forecast) {
     const forecastContainer = document.getElementById('forecastContainer');
